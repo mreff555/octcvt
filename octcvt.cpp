@@ -21,7 +21,7 @@ public:
         {
             output |= atol(octetPtr) << shift;
             shift -= 8;
-            octetPtr = strtok (NULL, ".");    // ????
+            octetPtr = strtok (NULL, ".");
         } 
         
         (void) printf("%lu\n", output);
